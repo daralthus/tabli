@@ -16,6 +16,7 @@ import * as savedState from './savedState';
 import chromep from 'chrome-promise';
 import { TabWindow, TabItem } from './tabWindow';
 import * as tabWindowUtils from './tabWindowUtils';
+import iconListener from './icon'
 import {
     StateRef,
     update,
@@ -1018,3 +1019,4 @@ async function main() {
 }
 
 main();
+iconListener();

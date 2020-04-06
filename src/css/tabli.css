@@ -6,8 +6,8 @@ html {
     font-size: 1rem;
 }
 .popup-html {
-    width: 450px;
-    height: 600px;
+    width: 100%;
+    height: 100%;
 }
 body {
     /* background: white; */

@@ -12,6 +12,9 @@ const windowListSectionStyle = (layout: Layout) =>
         paddingTop: layout.sectionPaddingTop,
         paddingBottom: layout.sectionPaddingBottom,
         display: 'flex',
+        flex: 1,
+        maxWidth: Constants.TAB_COLUMN_MAX_WIDTH,
+        margin: '0 auto',
         flexDirection: 'column',
         alignItems: 'stretch'
     });

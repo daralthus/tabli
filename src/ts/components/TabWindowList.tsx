@@ -1,4 +1,5 @@
 import * as React from 'react';
+import { css } from 'emotion'
 import * as oneref from 'oneref';
 import FilteredTabWindowUI from './FilteredTabWindowUI';
 import WindowListSection from './WindowListSection';
@@ -126,7 +127,12 @@ const TabWindowList: React.FC<TabWindowListProps> = ({
     }
 
     return (
-        <div>
+        <div className={css`
+            @media (min-width: 1601px) {
+                justifyContent: 'center';
+                display: flex;    
+            }
+        `}>
             {relNotesSection}
             <WindowListSection
                 focusedRef={focusedTabWindowRef}

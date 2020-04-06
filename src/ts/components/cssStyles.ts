@@ -201,6 +201,8 @@ export const tabWindow = (theme: Theme) =>
         marginBottom: 8,
         minWidth: Constants.WINDOW_MIN_WIDTH,
         maxWidth: Constants.WINDOW_MAX_WIDTH,
+        marginLeft: 'auto',
+        marginRight: 'auto',
         display: 'flex',
         flexDirection: 'column',
     });

@@ -3,6 +3,7 @@ export const WINDOW_MIN_WIDTH = 345;
 export const WINDOW_MAX_WIDTH = 700;
 export const WINDOW_TITLE_MIN_WIDTH = 210;
 export const WINDOW_TITLE_MAX_WIDTH = WINDOW_MIN_WIDTH - 126;
+export const TAB_COLUMN_MAX_WIDTH = 550;
 export const TAB_TITLE_MIN_WIDTH = 250;
 export const TAB_TITLE_MAX_WIDTH = WINDOW_MAX_WIDTH - 60;
 export const TAB_ITEM_HEIGHT = '2.0rem'; // 24px @ default 12px font
